@@ -33,3 +33,9 @@
 
 # CMake build
 cmake-build-Release/
+cmake-build-Clang/
+
+# compile database
+compile_commands.json
+
+.cache

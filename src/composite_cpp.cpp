@@ -857,7 +857,7 @@ static void wss(const coder::array<double, 1U> &clean_speech, const coder::array
 }
 
 void composite_cpp(const coder::array<double, 1U> &cleanFile, const coder::array<
-                   double, 1U> &enhancedFile, double Srate1, double, double
+                   double, 1U> &enhancedFile, double Srate1, double Srate2, double
                    Csig_data[], int Csig_size[2], double Cbak_data[], int
                    Cbak_size[2], double Covl_data[], int Covl_size[2])
 {
