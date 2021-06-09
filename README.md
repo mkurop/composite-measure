@@ -5,7 +5,7 @@ Composite measure of speech qualilty from the book by Philipos Loizou "Speech En
 To clone repository for latter C++ or Python installation run
 
 ```
-git clone --recurse-submudules https://github.com/mkurop/composite-measure.git
+git clone --recurse-submodules https://github.com/mkurop/composite-measure.git
 ```
 
 # Installation as a C++ library
