@@ -8,6 +8,8 @@ find_package(PythonInterp REQUIRED)
 
 find_package(PythonLibs REQUIRED)
 
+include(GNUInstallDirs)
+
 if(SKBUILD)
 
 find_package(PythonExtensions REQUIRED)
@@ -35,6 +37,7 @@ add_subdirectory(src)
 add_subdirectory(example)
 
 # create cython wraper
+
 if(SKBUILD)
 add_subdirectory(cython-wraper)
 endif()
