@@ -27,3 +27,27 @@ find_package(composite-measure REQUIRED)
 
 # Installation as a Python C++ extension
 
+First create conda environment using
+
+```
+conda create --name <env_name> --file requirements.txt
+```
+
+Then activate the environment
+
+```
+conda activate <env_name>
+```
+
+In the folder containing setup.py run
+
+```
+pip install .
+```
+
+And the package is available in your environment for import.
+
+# Usage C++
+Consult the example/
+
+
