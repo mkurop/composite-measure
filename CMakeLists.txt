@@ -10,6 +10,8 @@ find_package(PythonLibs REQUIRED)
 
 include(GNUInstallDirs)
 
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
 if(SKBUILD)
 
 find_package(PythonExtensions REQUIRED)
