@@ -4,6 +4,21 @@ project(composite-measure VERSION 1.0.0)
 
 find_package(OpenMP REQUIRED)
 
+find_package(PythonInterp REQUIRED)
+
+find_package(PythonLibs REQUIRED)
+
+if(SKBUILD)
+
+find_package(PythonExtensions REQUIRED)
+
+find_package(Cython REQUIRED)
+
+find_package(NumPy REQUIRED)
+
+endif()
+message(STATUS ${PythonLibs_LIBRARIES})
+
 if(${CMAKE_CLANG})
   set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
   set(CMAKE_CXX_COMPILER clang++)
@@ -15,6 +30,11 @@ endif()
 
 add_subdirectory(src)
 
-# create example executabe
+# create example executable
 
 add_subdirectory(example)
+
+# create cython wraper
+if(SKBUILD)
+add_subdirectory(cython-wraper)
+endif()

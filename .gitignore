@@ -39,3 +39,7 @@ cmake-build-Clang/
 compile_commands.json
 
 .cache
+
+# cython builds
+**_skbuild/
+**composite_measure.egg-info/
