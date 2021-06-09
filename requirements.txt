@@ -9,7 +9,6 @@ c-ares
 ca-certificates
 certifi
 cmake
-composite-measure
 cython
 distro
 expat
@@ -42,7 +41,6 @@ packaging
 pip
 pyparsing
 python
-python_abi
 readline
 rhash
 scikit-build
