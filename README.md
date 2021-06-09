@@ -48,6 +48,9 @@ pip install .
 And the package is available in your environment for import.
 
 # Usage C++
-Consult the example/
+Consult the `example/composite_example.cpp` for example usage.
+
+# Usage Python
+Consult the `example-python/composite-example.py` for example usage.
 
 
