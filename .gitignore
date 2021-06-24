@@ -44,3 +44,4 @@ compile_commands.json
 **_skbuild/
 **composite_measure.egg-info/
 __pycache__ 
+**build/
